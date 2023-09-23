@@ -1,0 +1,17 @@
+.parent{
+    margin: 2rem auto;
+    display: grid;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-items: center;
+}
+.parent .appBar{
+    width: 40%;
+    border-radius: 12px;
+    margin: 1rem;
+    transition: transform .2s ease-out;
+}
+.appBar:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}

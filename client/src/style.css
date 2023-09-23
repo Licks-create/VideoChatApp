@@ -1,0 +1,17 @@
+body {
+    background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.3), 
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(https://i.ibb.co/p6T1C7G/friends-family-making-videocall-catching-up-1.jpg) center top/cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(2px);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
